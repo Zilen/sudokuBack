@@ -64,7 +64,6 @@ function sudokuNumbers(req, res) {
 			}
 		}
 		if (erro == true) {
-			//changeinvalidNumber(numbers, i);]
 			return sudokuNumbers(req,res);
 		}
 		var number = undefined;
